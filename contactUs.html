@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/contactUs.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Junk Yard</h1>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="aboutUs.html">About</a>
+                </li>
+                <li>
+                    <a href="contactUs.html">Contact</a>
+                </li>
+                <li>
+                    <a href="terms.html">Terms</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="profile">
+            <img src="./dangote.jfif" alt="">
+            <p>Daniel</p>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
+                <path d="M480-345 240-585l56-56 184 184 184-184 56 56-240 240Z" />
+            </svg>
+        </div>
+
+        <div class="hamburger">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
+                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+            </svg>
+        </div>
+
+    </header>
+
+    <main>
+        <form>
+            <h2>Contact Us</h2>
+
+            <div>
+                <label for="">First Name</label> <br>
+                <input type="text" placeholder="John" required>
+            </div>
+            <div>
+                <label for="">Last Name</label> <br>
+                <input type="text" placeholder="Doe" required>
+            </div>
+            <div>
+                <label for="">Email</label> <br>
+                <input type="email" placeholder="johndoe@gmail.com" required>
+            </div>
+            <div>
+                <label for="gender">Gender</label> <br>
+                <select name="gender" id="">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>
+            <div>
+                <label for="">Message</label> <br>
+                <textarea name="" id="" cols="30" rows="10">My name is </textarea>
+            </div>
+            <!-- <input type="submit" value="Contact Us"> -->
+            <button>Send Message</button>
+        </form>
+    </main>
+</body>
+
+</html>
